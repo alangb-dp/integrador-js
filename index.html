@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <title>GameSShop</title>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <header class="mobile">
+            <a href="/index.html" class="logo"><h1>GameSShop</h1></a>
+            <button class="abrir-menu" id="abrir-menu"><img src="/img/menu3.png" alt="menu"></button>
+
+        </header>
+
+        <aside>
+            <button class="cerrar-menu" id="cerrar-menu"><img src="/img/closeMenu.png" alt="cerrar"></button>
+
+            <header>
+                <a href="index.html"><h1 class="logo">GameSShop</h1></a>
+            </header>
+
+            <nav>
+                <ul class="menu">
+                    <li><button id="todos" class="boton-menu boton-categoria active">🎮Todos los productos</button></li>
+                    <li><button id="accion" class="boton-menu boton-categoria">🎮Accion</button></li>
+                    <li><button id="terror" class="boton-menu boton-categoria">🎮Terror</button></li>
+                    <li><button id="aventura" class="boton-menu boton-categoria">🎮Aventura</button></li>
+                    <li><a class="boton-menu boton-carrito active" href="./carrito.html">🛒Carrito <span id="numerito" class="numerito">0</span></a></li>
+                </ul>
+            </nav>
+
+            <footer>
+                <p class="text-importante">Inicia Sesion antes de realizar una compra. <a class="sign-in-link" href="/sign-in.html">Click Aqui</a></p>
+
+                <p class="texto-footer">CONTACTANOS VIA EMAIL <span>gamesshop.support@gmail.com</span></p>
+            </footer>
+        </aside>
+
+        <main>
+
+
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+
+            <div id="contenedor-productos" class="contenedor-productos"> 
+                
+            </div>           
+
+
+                
+              
+        </main>
+
+    </div>
+    
+
+    <script src="/main.js"></script>
+    <script src="/menu.js"></script>
+
+
+
+</body>
+</html>
+
+

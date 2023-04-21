@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(/img/heroP.jpeg) no-repeat fixed center/100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #333333, #dd1818);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;    
+
+}
+
+.container-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    width: 450px;
+    height: 250px;
+    color: white;
+    background-color: #333333bc;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    align-items: left;
+    font-weight: 800;
+    color: aliceblue;
+    
+}
+
+.controls{
+    width: 150px;
+    height: 20px;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.sing-up{
+    width: 300px;
+    height: 40px;
+    font-weight: 800;
+    border-radius: 1rem;
+}
+
+.sing-up:hover{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: aliceblue;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: red;
+}
+
+.link{
+    font-weight: 800;
+    text-decoration-line: underline;
+    color: red;
+}
+
+/*MEDIAQUERIES*/
+
+@media screen and (max-width: 600px) {
+    body{
+        background: url(/img/fondo3.jpg) no-repeat fixed center/100%;
+    }
+
+    .container-info{
+        width: 260px;
+        height: 300px;
+    }
+
+    .sing-up{
+        width: 230px;
+    }
+}
+
+
